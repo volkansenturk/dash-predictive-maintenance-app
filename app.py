@@ -1,12 +1,11 @@
 import logging
 
-from dash import html, dcc, Input, Output, callback
+from dash import html, dcc, dash_table, Input, Output, callback
 import dash
 
 import dash_core_components as dcc
 import dash_daq as daq
 
-import dash_table
 
 import numpy as np
 
